@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+.top-container{
+    background-color: #e4f9f5;
+    width: 100%;
+    height: 100vh;
+    
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.mountain{
+    display: block;
+    position:absolute;
+    bottom: 0px;
+    right:30%
+}
+.title-text{
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 200px;
+    color: #66bfbf;
+    font-family: 'Sacramento', cursive;
+}
+.bottom-cloud{
+    position: relative;
+    top: 250px;
+    left: 190px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.profile-picture{
+    margin: 80px;
+    margin-bottom: 50px;
+    height: 170px;
+    width: 170px;
+    border: #66bfbf solid;
+    border-radius: 50%;
+}
+.text-container{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.text{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+}
+.skills{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.logo-img{
+    height: 45px;
+    width: 65px;
+    border: #66bfbf solid;
+    border-radius: 50%;
+}
+.skill-image{
+    display: flex;
+    gap: 40px;;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+hr {
+    position: absolute;
+    background-color: #eaf6f6;
+    border-top:6px dotted #eaf6f6;
+    height: 3px;
+    width: 50%;
+    left: 25%;
+}
+.lower-text{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-top: 70px;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.QR{
+    height: 100px;
+    width: 100px;
+}
+.copyright{
+    order: 1;
+}
+.footer{
+    padding: 50px;
+    display: flex;
+    height: 250x;
+    width: 100%;
+    background-color: #66bfbf;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
